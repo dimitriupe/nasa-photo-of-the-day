@@ -26,7 +26,7 @@ function App() {
         app! Have fun 🚀!
       </p> */}
       <Header />
-      <APOD />
+      <APOD post={data}/>
       <Footer />
     </div>
   );
