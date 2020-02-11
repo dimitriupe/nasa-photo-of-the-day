@@ -9,6 +9,6 @@ const Header = () => {
           <img className="logo" src={logo} alt="NASA logo" />
       </header>
     );
-  };
+}
 
 export default Header;

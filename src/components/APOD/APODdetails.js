@@ -2,8 +2,7 @@ import React from "react";
 import "./APODdetails.css";
 
 const APODdetails = props => {
-
-    console.log('post: ', props.post);
+    if (!props.url) return <h3>Loading...</h3>;
 
     return (
         <div className="APOD-details">

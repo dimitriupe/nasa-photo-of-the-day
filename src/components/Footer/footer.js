@@ -7,6 +7,6 @@ const Footer = () => {
           <h4>© NASA - Astronomy Picture of the Day 2020. All rights reserved.</h4>
       </footer>
     );
-  };
+}
 
 export default Footer;
